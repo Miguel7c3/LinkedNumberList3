@@ -28,6 +28,10 @@ public class LinkedNumberList implements NumberList {
         return false; // Linked List CANNOT BE FULL
     }
 
+    public Lnode getHead(){
+        return first;
+    };
+
 
     public boolean contains(int v) {
 
